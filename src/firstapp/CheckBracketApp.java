@@ -35,8 +35,7 @@ public class CheckBracketApp {
         CheckBracketApp app = new CheckBracketApp();
         app.showText();
     }
- 
-    
+     
     //prepare GUI
     private void prepareGUI() {
         mainFrame = new JFrame("Bracket Balanced");
@@ -83,8 +82,6 @@ public class CheckBracketApp {
         }
         return stack.empty();
     }
-    
-    
     
     private void showText() {
         headerLabel.setText("Program checking the bracket in your code");
